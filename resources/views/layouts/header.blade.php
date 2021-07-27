@@ -60,31 +60,26 @@
         <div class="loader-close-button" style="display: none;"><span class="screen-reader-text">Close</span></div>
     </div>
     <div id="perspective" style="">
+        <!--==================================================================================================================-->
         <!-- Begin mobile menu -->
         <a id="btn-close-mobile-menu" href="javascript:;"></a>
 
-        <div class="mobile-menu-wrapper">
+        <div style="background: rgb(240 , 34 ,109);" class="mobile-menu-wrapper">
             <div class="mobile-menu-content">
                 <div class="menu-main-menu-container">
                     <ul id="mobile_main_menu" class="mobile-main-nav">
                         <li class="menu-item ">
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="menu-item menu-item-10">
-                            <a href="#">Pages</a>
+                            <a style="color: rgb(255 , 222 , 109);" href="{{route('menu')}}">Menú</a>
                         </li>
                         <li class="menu-item ">
-                            <a href="#">Portfolio</a>
-                        </li>
-                        <li class="menu-item ">
-                            <a href="#">Sliders</a>
+                            <a style="color: rgb(255 , 222 , 109);" href="{{route('contacto')}}">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
         <!-- End mobile menu -->
-
+        <!--==================================================================================================================-->
 
 
 
@@ -108,20 +103,21 @@
                                                     <div class="elementor-element elementor-element-d6b5ce3 elementor-widget elementor-widget-craftcoffee-navigation-menu" data-id="d6b5ce3" data-element_type="widget" data-settings='{"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}' data-widget_type="craftcoffee-navigation-menu.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="themegoods-navigation-wrapper menu_style1">
+
+                                                                <!--=================================================================================-->
+                                                                <!--Menu-->
                                                                 <div class="menu-main-menu-container">
-                                                                    <!--Menu-->
                                                                     <ul id="nav_menu34" class="nav">
-                                                                        <li class="menu-item arrow">
-                                                                            <a href="index.html">Inicio</a>
+                                                                        <li class="menu-item">
+                                                                            <a style="font-size: 50px; margin-bottom: -30px; margin-top: -20px; color: rgb(240 , 34 ,109);" href="{{route('menu')}}">Menú</a>
                                                                         </li>
-                                                                        <li class="menu-item arrow">
-                                                                            <a href="#">Menu</a>
-                                                                        </li>
-                                                                        <li class="menu-item arrow">
-                                                                            <a href="#">Contacto</a>
+                                                                        <li class="menu-item">
+                                                                            <a style="font-size: 50px; margin-bottom: -30px; margin-top: -20px; color: rgb(240 , 34 ,109);" href="{{route('contacto')}}">Contacto</a>
                                                                         </li>
                                                                     </ul>
                                                                 </div>
+                                                                <!--Fin del Menu-->
+                                                                <!--=================================================================================-->
 
                                                             </div>
                                                         </div>
@@ -130,6 +126,8 @@
                                             </div>
                                         </div>
 
+                                        <!--==============================================================================-->
+                                        <!--Logo (movil)-->
                                         <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-8dfe958" data-id="8dfe958" data-element_type="column" data-settings='{"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}'>
                                             <div class="elementor-column-wrap elementor-element-populated">
                                                 <div class="elementor-widget-wrap">
@@ -137,7 +135,7 @@
                                                         <div class="elementor-widget-container">
                                                             <!--Logo-->
                                                             <div class="elementor-image">
-                                                                <a href="index.html">
+                                                                <a href="{{route('menu')}}">
                                                                     <img width="180" height="180" src="assets/images/logo.png" class="attachment-full size-full" alt="La Limeñita" loading="lazy"/>
                                                                 </a>
                                                             </div>
@@ -146,64 +144,72 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <!--Fin Logo (movil)-->
+                                        <!--==============================================================================-->
 
-                                        <!---Iconos redes sociales-->
+
+                                        <!---divisor-->
                                         <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-b401b7a elementor-hidden-phone" data-id="b401b7a" data-element_type="column" data-settings='{"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}' >
-                                            <div class="elementor-column-wrap elementor-element-populated">
-                                                <div class="elementor-widget-wrap">
-                                                    <div class="elementor-element elementor-element-9966067 elementor-widget__width-auto elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="9966067" data-element_type="widget" data-settings='{"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}' data-widget_type="social-icons.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="elementor-social-icons-wrapper elementor-grid">
-                                                                <!--Facebook-->
-                                                                <div class="elementor-grid-item">
-                                                                    <a href="#" class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-fac257c" target="_blank">
-                                                                        <span class="elementor-screen-only">Facebook</span>
-                                                                        <i class="fab fa-facebook"></i>
-                                                                    </a>
-                                                                </div>
-                                                                <!--Instagram-->
-                                                                <div class="elementor-grid-item">
-                                                                    <a href="#" class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-4238c6b" target="_blank">
-                                                                        <span class="elementor-screen-only">Instagram</span>
-                                                                        <i class="fab fa-instagram"></i>
-                                                                    </a>
-                                                                </div>
-                                                                <!--Whatsapp-->
-                                                                <div class="elementor-grid-item">
-                                                                    <a href="#" class="elementor-icon elementor-social-icon elementor-social-icon-yelp elementor-repeater-item-e0f5af3" target="_blank">
-                                                                        <span class="elementor-screen-only">Yelp</span>
-                                                                        <i class="fab fa-whatsapp"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
 
-                                                </div>
-                                            </div>
+
+
                                         </div>
 
                                         <!----==================================================================================================-->
                                         <!--Boton de cerrar movil-->
                                         <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-fcec661" data-id="fcec661" data-element_type="column" data-settings='{"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}'>
+
+
+
                                             <div class="elementor-column-wrap elementor-element-populated">
                                                 <div class="elementor-widget-wrap">
                                                     <div class="elementor-element elementor-element-ff52274 elementor-align-center elementor-widget-tablet__width-auto elementor-hidden-phone elementor-widget elementor-widget-button" data-id="ff52274" data-element_type="widget" data-settings='{"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}' data-widget_type="button.default">
                                                         <div class="elementor-widget-container">
-                                                            <div class="elementor-button-wrapper">
+                                                            <div class="themegoods-navigation-wrapper menu_style1">
+
+                                                                <!--=================================================================================-->
+                                                                <!--Redes sociales-->
+                                                                <div class="menu-main-menu-container">
+                                                                    <ul id="nav_menu34" class="nav">
+                                                                        <li class="menu-item">
+                                                                            <a style="margin-left: 20px; font-size: 50px; margin-bottom: -30px; margin-top: -20px;" href="https://api.whatsapp.com/send/?phone=56956245935&text&app_absent=0">
+                                                                                <i  style="font-size: 50px; margin-bottom: -30px; margin-top: -20px; color: rgb(240 , 34 ,109);" class="fab fa-whatsapp"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="menu-item">
+                                                                            <a style="font-size: 50px; margin-bottom: -30px; margin-top: -20px;" href="https://www.instagram.com/sandwicheria.lalimenita">
+                                                                                <i  style="font-size: 50px; margin-bottom: -30px; margin-top: -20px; color: rgb(240 , 34 ,109);" class="fab fa-instagram"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                                <!--Fin Redes sociales-->
+                                                                <!--=================================================================================-->
+
                                                             </div>
                                                         </div>
                                                     </div>
 
+                                                    <!--=================================================================================-->
+                                                    <!--Icono de abrir movil-->
                                                     <div class="elementor-element elementor-element-0b79fea elementor_mobile_nav elementor-widget__width-auto elementor-hidden-desktop elementor-view-default elementor-widget elementor-widget-icon" data-id="0b79fea" data-element_type="widget" data-settings='{"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}' data-widget_type="icon.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-icon-wrapper">
-                                                                <a class="elementor-icon" href=""> <i aria-hidden="true" class="fas fa-ellipsis-v"></i> </a>
+                                                                <a class="elementor-icon" href="">
+                                                                    <!--Icono-->
+                                                                    <i style="font-size: 50px; margin-bottom: -10px; margin-top: -20px; color: rgb(240 , 34 ,109);" class="bi bi-list"></i>
+                                                                </a>
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <!--Icono de abrir movil-->
+                                                    <!--=================================================================================-->
+
+
                                                 </div>
                                             </div>
+
+
                                         </div>
                                         <!----==================================================================================================-->
 

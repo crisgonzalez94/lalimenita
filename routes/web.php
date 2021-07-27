@@ -17,9 +17,14 @@ Route::get('/', function () {
     return view('menu');
 });
 
+Route::get('/menu', function () {
+    return view('menu');
+})->name('menu');
+
+
 Route::get('/contacto', function () {
     return view('contacto');
-});
+})->name('contacto');
 
 Auth::routes();
 

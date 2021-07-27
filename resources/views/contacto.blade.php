@@ -269,8 +269,8 @@
                                                                         <textarea name="Message" rows="20" cols="20"
                                                                             id="Message"></textarea>
 
-                                                                        <input type="submit" name="submit" value="Enviar"
-                                                                            class="submit-button" />
+                                                                        <!--Boton de enviar-->
+                                                                        <input style="background: rgb(240 , 34 ,109); color: white" type="submit" name="submit" value="Enviar" class="submit-button" />
                                                                     </form>
 
                                                                 </div>
